@@ -1,0 +1,4 @@
+GTAV-Savegame
+=============
+
+Savegame structure
