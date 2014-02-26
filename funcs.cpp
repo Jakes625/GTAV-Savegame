@@ -8,9 +8,9 @@ int main(int argc, char* args[]){
 
   u8* fileBuffer = ReadFile( args[1] ); //savegame such as RAGE.SAV AFTER PS3/XBOX encryption
   
-  readBlocks( &fileBuffer );
+  readBlocks( fileBuffer );
   
-  resignFile( &fileBuffer, filesize( args[1] ) );
+  resignFile( fileBuffer, filesize( args[1] ) );
   
   return 0;
 }
